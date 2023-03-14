@@ -13,7 +13,28 @@
 ::-webkit-scrollbar-thumb{
 	background-color: black;
 }
-
+.skills-div{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 138px);
+}
+/* style="border: 1px solid black; width: fit-content;padding: 20px; margin-bottom: 20px;" */
+.skills-icon-div{
+	/* border: 1px solid #5d4572; */
+	width: 130px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	/* height: 200px; */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 20px;
+}
+.skills-icon-div:hover{
+	background-color: #5d4572;
+	transition: 1s;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1044,7 +1065,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: #835bc2;
 		}
 
 		input[type="submit"]:active,
@@ -1377,7 +1398,7 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: #835bc2;
 					}
 
 					#header nav ul li a:active {
